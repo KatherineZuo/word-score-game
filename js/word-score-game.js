@@ -223,7 +223,7 @@ function haveLettersForWord(aProposedWord){
 function resetHand(){
 	
 	for(ii=0; ii<YOUR_HAND.length; ii++){
-		YOUR_HAND[i].used = false;
+		YOUR_HAND[ii].used = false;
 	}
 }
 
